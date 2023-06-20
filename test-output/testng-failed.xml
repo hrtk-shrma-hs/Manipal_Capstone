@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Edge Test(failed)">
+    <parameter name="Port" value="6666"/>
+    <classes>
+      <class name="org.capstonetestcase.TestCaseFive">
+        <methods>
+          <include name="tc5Scenarios"/>
+          <include name="initialSetup"/>
+        </methods>
+      </class> <!-- org.capstonetestcase.TestCaseFive -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

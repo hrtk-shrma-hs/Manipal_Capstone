@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T00:42:25 IST" name="Suite" finished-at="2023-06-21T00:43:18 IST" duration-ms="53825">
+    <groups>
+    </groups>
+    <test started-at="2023-06-21T00:42:25 IST" name="Chrome Test" finished-at="2023-06-21T00:43:13 IST" duration-ms="48274">
+      <class name="org.capstonetestcase.TestCaseFive">
+        <test-method is-config="true" signature="initialSetup(java.lang.String)[pri:0, instance:org.capstonetestcase.TestCaseFive@16a0ee18]" started-at="2023-06-21T00:42:25 IST" name="initialSetup" finished-at="2023-06-21T00:42:33 IST" duration-ms="8239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method signature="tc5Scenarios()[pri:0, instance:org.capstonetestcase.TestCaseFive@16a0ee18]" started-at="2023-06-21T00:42:33 IST" name="tc5Scenarios" finished-at="2023-06-21T00:43:13 IST" duration-ms="39833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5Scenarios -->
+      </class> <!-- org.capstonetestcase.TestCaseFive -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2023-06-21T00:42:25 IST" name="Edge Test" finished-at="2023-06-21T00:43:18 IST" duration-ms="53825">
+      <class name="org.capstonetestcase.TestCaseFive">
+        <test-method is-config="true" signature="initialSetup(java.lang.String)[pri:0, instance:org.capstonetestcase.TestCaseFive@52af26ee]" started-at="2023-06-21T00:42:25 IST" name="initialSetup" finished-at="2023-06-21T00:42:36 IST" duration-ms="11123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method signature="tc5Scenarios()[pri:0, instance:org.capstonetestcase.TestCaseFive@52af26ee]" started-at="2023-06-21T00:42:36 IST" name="tc5Scenarios" finished-at="2023-06-21T00:43:18 IST" duration-ms="42645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5Scenarios -->
+      </class> <!-- org.capstonetestcase.TestCaseFive -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Suite -->
+</testng-results>
